@@ -1,0 +1,19 @@
+Consulta I: O vendedor Alberto recebeu bonificação.
+
+bonificacao(alberto, _).
+% Retorna true se Alberto recebeu bonificação em algum quadrimestre.
+-
+Consulta II Qual é o nome dos vendedores que receberam bonificação
+
+bonificacao(Vendedor, _).
+% Retorna os vendedores que receberam bonificação em algum quadrimestre.
+-
+Consulta III Algum vendedor será notificado
+
+notificacao(_, _).
+% Retorna true se algum vendedor será notificado em algum quadrimestre.
+-
+Consulta IV Algum vendedor será demitido
+
+demissao(_).
+% Retorna true se algum vendedor será demitido conforme as regras estabelecidas.
